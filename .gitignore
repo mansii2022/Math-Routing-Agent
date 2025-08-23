@@ -1,4 +1,4 @@
-# Ignore virtual environments
+# Virtual environments
 .venv/
 venv/
 
@@ -8,7 +8,7 @@ __pycache__/
 *.pyo
 *.pyd
 
-# Ignore large binaries
+# Large/binary files
 *.dll
 *.lib
 *.so
