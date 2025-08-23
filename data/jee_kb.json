@@ -1,0 +1,202 @@
+[
+    {
+        "question": "Factorize x^3 - 27",
+        "answer": "(x - 3)(x^2 + 3x + 9)"
+    },
+    {
+        "question": "Solve quadratic equation 2x^2 + 3x - 5 = 0",
+        "answer": "x = 1, x = -2.5"
+    },
+    {
+        "question": "Expand (x+1)^5",
+        "answer": "x^5 + 5x^4 + 10x^3 + 10x^2 + 5x + 1"
+    },
+    {
+        "question": "Find roots of x^4 - 5x^2 + 4 = 0",
+        "answer": "x = \u00b11, x = \u00b12"
+    },
+    {
+        "question": "Differentiate x^3 + 2x^2 + 5x",
+        "answer": "3x^2 + 4x + 5"
+    },
+    {
+        "question": "Integrate 2x^2 + 3x + 1 dx",
+        "answer": "(2/3)x^3 + (3/2)x^2 + x + C"
+    },
+    {
+        "question": "Integrate sin^2(x) dx",
+        "answer": "(x/2) - (sin(2x)/4) + C"
+    },
+    {
+        "question": "Differentiate ln(x^2+1)",
+        "answer": "2x / (x^2 + 1)"
+    },
+    {
+        "question": "Probability of 2 heads in 3 coin tosses",
+        "answer": "3/8"
+    },
+    {
+        "question": "If a dice is thrown, probability of getting a prime number",
+        "answer": "1/2"
+    },
+    {
+        "question": "Mean of numbers 2, 4, 6, 8, 10",
+        "answer": "6"
+    },
+    {
+        "question": "Find the equation of line passing through (2,3) with slope 4",
+        "answer": "y - 3 = 4(x - 2)"
+    },
+    {
+        "question": "Equation of circle with center (0,0) and radius 5",
+        "answer": "x^2 + y^2 = 25"
+    },
+    {
+        "question": "Find slope of tangent to parabola y^2 = 4x at (1,2)",
+        "answer": "slope = 1"
+    },
+    {
+        "question": "Simplify sin^2x + cos^2x",
+        "answer": "1"
+    },
+    {
+        "question": "Find value of sin(45\u00b0) + cos(45\u00b0)",
+        "answer": "\u221a2"
+    },
+    {
+        "question": "Solve sin(x) = \u221a3/2",
+        "answer": "x = 60\u00b0, 120\u00b0"
+    },
+    {
+        "question": "Find magnitude of vector 2i + 3j + 6k",
+        "answer": "7"
+    },
+    {
+        "question": "Angle between vectors i + j and i - j",
+        "answer": "90\u00b0"
+    },
+    {
+        "question": "Equation of plane through (1,2,3) and normal vector 2i - j + k",
+        "answer": "2(x-1) - (y-2) + (z-3) = 0"
+    },
+    {
+        "question": "Sample question 21",
+        "answer": "Sample answer 21"
+    },
+    {
+        "question": "Sample question 22",
+        "answer": "Sample answer 22"
+    },
+    {
+        "question": "Sample question 23",
+        "answer": "Sample answer 23"
+    },
+    {
+        "question": "Sample question 24",
+        "answer": "Sample answer 24"
+    },
+    {
+        "question": "Sample question 25",
+        "answer": "Sample answer 25"
+    },
+    {
+        "question": "Sample question 26",
+        "answer": "Sample answer 26"
+    },
+    {
+        "question": "Sample question 27",
+        "answer": "Sample answer 27"
+    },
+    {
+        "question": "Sample question 28",
+        "answer": "Sample answer 28"
+    },
+    {
+        "question": "Sample question 29",
+        "answer": "Sample answer 29"
+    },
+    {
+        "question": "Sample question 30",
+        "answer": "Sample answer 30"
+    },
+    {
+        "question": "Sample question 31",
+        "answer": "Sample answer 31"
+    },
+    {
+        "question": "Sample question 32",
+        "answer": "Sample answer 32"
+    },
+    {
+        "question": "Sample question 33",
+        "answer": "Sample answer 33"
+    },
+    {
+        "question": "Sample question 34",
+        "answer": "Sample answer 34"
+    },
+    {
+        "question": "Sample question 35",
+        "answer": "Sample answer 35"
+    },
+    {
+        "question": "Sample question 36",
+        "answer": "Sample answer 36"
+    },
+    {
+        "question": "Sample question 37",
+        "answer": "Sample answer 37"
+    },
+    {
+        "question": "Sample question 38",
+        "answer": "Sample answer 38"
+    },
+    {
+        "question": "Sample question 39",
+        "answer": "Sample answer 39"
+    },
+    {
+        "question": "Sample question 40",
+        "answer": "Sample answer 40"
+    },
+    {
+        "question": "Sample question 41",
+        "answer": "Sample answer 41"
+    },
+    {
+        "question": "Sample question 42",
+        "answer": "Sample answer 42"
+    },
+    {
+        "question": "Sample question 43",
+        "answer": "Sample answer 43"
+    },
+    {
+        "question": "Sample question 44",
+        "answer": "Sample answer 44"
+    },
+    {
+        "question": "Sample question 45",
+        "answer": "Sample answer 45"
+    },
+    {
+        "question": "Sample question 46",
+        "answer": "Sample answer 46"
+    },
+    {
+        "question": "Sample question 47",
+        "answer": "Sample answer 47"
+    },
+    {
+        "question": "Sample question 48",
+        "answer": "Sample answer 48"
+    },
+    {
+        "question": "Sample question 49",
+        "answer": "Sample answer 49"
+    },
+    {
+        "question": "Sample question 50",
+        "answer": "Sample answer 50"
+    }
+]

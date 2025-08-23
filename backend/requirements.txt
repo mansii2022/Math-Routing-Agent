@@ -1,0 +1,111 @@
+Create a file:
+backend/requirements.txt
+
+fastapi
+uvicorn
+pydantic
+sympy
+faiss-cpu
+numpy
+scikit-learn
+
+
+(this covers FastAPI server, sympy solver, FAISS retriever, etc. → enough for your assignment)
+
+📌 Frontend — package.json dependencies
+
+Open frontend/package.json and make sure it has these:
+
+{
+  "name": "math-routing-agent-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "vite": "^5.0.0"
+  }
+}
+
+
+Then run once in frontend/:
+
+npm install
+
+📌 README.md (Root)
+
+Finally, add a README.md in the root:
+
+# 📐 Math Routing Agent
+
+An Agentic-RAG system that solves math questions like a professor.  
+Implements Knowledge Base (VectorDB), Web Search, Solver (Sympy), and Human-in-the-loop Feedback.
+
+---
+
+## 🚀 Features
+- ✅ Input guardrails → restricts to math-only questions  
+- ✅ Knowledge Base with FAISS  
+- ✅ Sympy Solver for symbolic math (integration, differentiation, factorization, etc.)  
+- ✅ Web search fallback (via MCP placeholder)  
+- ✅ Human-in-the-Loop Feedback (feedback stored locally for refinement)  
+- ✅ Frontend with React (UI + Feedback)  
+
+---
+
+## 📂 Project Structure
+
+
+math-routing-agent/
+│── backend/ # FastAPI backend
+│── frontend/ # React frontend
+│── data/ # Knowledge base / vector store
+│── docs/ # Documentation & screenshots
+│── README.md
+
+
+---
+
+## ⚡ Setup Instructions
+
+### 1️⃣ Backend (FastAPI)
+```bash
+cd backend
+python -m venv .venv
+.venv\Scripts\activate   # Windows
+pip install -r requirements.txt
+uvicorn main:app --reload --port 8000
+
+
+Backend runs on → http://localhost:8000
+
+2️⃣ Frontend (React + Vite)
+cd frontend
+npm install
+npm run dev
+
+
+Frontend runs on → http://localhost:5173
+
+🧪 Example Questions
+
+2+2
+
+integrate x^2 dx
+
+differentiate 3x^3 + 2x
+
+factor x^3 - 8
+
+solve x^2 - 4 = 0
+
+probability of 2 heads in 3 tosses
+
