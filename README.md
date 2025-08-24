@@ -147,4 +147,3 @@ This project **meets the assignment requirements**:
 
 ---
 
-Would you like me to also prepare a **short version of README (1–2 pages)** formatted like a **submission report PDF** so you can attach it along with your GitHub link?
