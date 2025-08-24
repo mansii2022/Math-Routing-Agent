@@ -134,8 +134,6 @@ Visit: **[http://localhost:5173](http://localhost:5173)**
 
 ## 📌 Summary
 
-This project **meets the assignment requirements**:
-
 * Agentic RAG with KB + Web Search fallback.
 * Guardrails for education-focused math solving.
 * Human-in-the-loop feedback.
